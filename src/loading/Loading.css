@@ -1,0 +1,22 @@
+.Loading {
+    display: inline-block;
+    border: 2px solid blue;
+    border-right-color: transparent;
+    border-radius: 50%;
+    animation: rotate 1s infinite linear;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
